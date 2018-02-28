@@ -5,7 +5,7 @@ import time
 input_data_path='./data/wackypedia_512k_matrix_wostop'
 #input_data_path='./data/wackypedia_POS_matrix_wostop'
 
-#stop_word_path='/iesl/canvas/hschang/code/taxonomy/resources/stop_word_list'
+#stop_word_path='./stop_word_list'
 stop_word_path='/dev/null'
 
 gensim_out_path='./model/gensim_model_lower'

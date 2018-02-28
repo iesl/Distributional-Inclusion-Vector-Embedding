@@ -1,5 +1,6 @@
 #!/bin/bash
 
+mkdir -p "./data"
 echo "CLEANING DATA..."
 
 PY_PATH="python"

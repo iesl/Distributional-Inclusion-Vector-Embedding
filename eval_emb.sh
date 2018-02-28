@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p "./output"
+
 PY_PATH="python"
 
 TEMP_COMMAND_FILE="./temp_commands"
