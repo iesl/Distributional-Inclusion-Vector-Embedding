@@ -1,8 +1,11 @@
 # Distributional Inclusion Vector Embedding (DIVE)
 ## Requirements
 Python 2.7
+
 Tensorflow (To train)
-ipython notebook (To visualize)
+
+IPython notebook (To visualize)
+
 You might need to install some other python packages if you find code needs them but you haven't installed it. 
 
 ## Pre-trained embedding and visualization
@@ -53,5 +56,6 @@ If you use the code, please cite our [paper](https://arxiv.org/abs/1710.00880).
 ```
 Haw-Shiuan Chang, ZiYun Wang, Luke Vilnis, and Andrew McCallum, 
 Distributional Inclusion Vector Embedding for Unsupervised Hypernymy Detection, 
-Human Language Technology Conference of the North American Chapter of the Association of Computational Linguistics (HLT/NAACL), 2018
+Human Language Technology Conference of the North American Chapter of the 
+Association of Computational Linguistics (HLT/NAACL), 2018
 ```
