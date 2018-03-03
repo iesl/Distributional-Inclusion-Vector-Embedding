@@ -1,4 +1,10 @@
 # Distributional Inclusion Vector Embedding (DIVE)
+## Requirements
+Python 2.7
+Tensorflow (To train)
+ipython notebook (To visualize)
+You might need to install some other python packages if you find code needs them but you haven't installed it. 
+
 ## Pre-trained embedding and visualization
 The pretrained embeddings are stored in `./model/word-emb.json` (without POS) and in `./model/word-emb_POS.json` (with POS). 
 
@@ -12,7 +18,7 @@ The code assumes the tokenization has already been done and each token in input 
 ### Running the training code
 Let `CORPUS_LOC` in `train.sh` point to your corpus file. Run `./train.sh`. If your input corpus contains POS, remember to add `-p "$delimiter"` when the `train.sh` script runs `python dataset_preproc.py`.
 
-You might need to install the python packages if you find code needs them but you haven't installed it. When the script runs `DIVE_train.py`, you might see the loss becomes inf after several epochs. There might not be anything wrong. Backpropagtion could still work properly when the loss function become inf.
+When the script runs `DIVE_train.py`, you might see the loss becomes inf after several epochs. There might not be anything wrong. Backpropagtion could still work properly when the loss function become inf.
 
 Notice that the main code is written by tensorflow, so you can try different objective function easily. However, the current implementation is not optimized for speed and only can take the input where all sentences have the same length. If you would like to share a implementation which is more flexible, faster, or more scalable, please send an email to the first author of the paper.
 
@@ -47,5 +53,5 @@ If you use the code, please cite our [paper](https://arxiv.org/abs/1710.00880).
 ```
 Haw-Shiuan Chang, ZiYun Wang, Luke Vilnis, and Andrew McCallum, 
 Distributional Inclusion Vector Embedding for Unsupervised Hypernymy Detection, 
-North American Association of Computational Linguistics (NAACL), 2018
+Human Language Technology Conference of the North American Chapter of the Association of Computational Linguistics (HLT/NAACL), 2018
 ```
