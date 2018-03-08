@@ -3,7 +3,7 @@
 mkdir -p "./data"
 echo "CLEANING DATA..."
 
-PY_PATH="python"
+PY_PATH=python
 
 CORPUS_LOC=''
 PROCESSED_CORPUS='./data/wackypedia_512k_matrix_wostop'
