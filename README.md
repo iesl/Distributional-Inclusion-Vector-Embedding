@@ -13,6 +13,8 @@ The pretrained embeddings are stored in `./model/word-emb.json` (without POS) an
 
 You can visualize it by running ipython notebook code `embedding_visualization.ipynb`
 
+We also visualize the DIVE embedding and corresponding contexts of top 1% words in material science papers: https://bl.ocks.org/chsu5358/raw/f08d4755b0f04e113c139a72a977df5c/.
+
 ## To train DIVE:
 
 ### Input data
